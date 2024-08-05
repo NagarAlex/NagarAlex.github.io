@@ -11,3 +11,4 @@ ul {
   overflow: hidden;
   background-color: #333333;
 }
+li {float: left;}

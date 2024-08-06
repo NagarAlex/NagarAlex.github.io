@@ -1,13 +1,32 @@
 body {font-family: Arial, Helvetica, sans-serif;}
 h1 {text-align: center;}
 h2 {text-align: center;}
-p {text-align: justify;}
+p { margin: 10px;
+     width: 75%;}
 div {text-align: center;}
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #333333;
+
+footer {position: flow; bottom: 10px; 
+padding: 10px;
 }
-li {float: left;}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 20px;
+    overflow: hidden;
+    background-color: #8f8f8f;
+    color: rgb(255, 255, 255);
+    overflow: hidden;
+}
+.navbar a{
+    padding: 10px;
+    color: rgb(255, 255, 255);
+}
+
+.navbar a:visited{
+    color: rgb(255, 255, 255); 
+}
+
+.navbar li{
+    float: left;
+}

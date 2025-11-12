@@ -1,35 +1,62 @@
-body {font-family: Arial, Helvetica, sans-serif;}
-h1 {text-align: center;}
-h2 {text-align: center;}
-p { margin: 10px;
-     width: 75%;}
-div {text-align: center;}
-
-footer {position: flow; bottom: 10px; 
-padding: 10px;
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  background-color: #fafafa;
+  color: #222;
+  line-height: 1.6;
 }
-ul {
 
+main {
+  max-width: 700px;
+  margin: 2rem auto;
+  padding: 1rem;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+  text-align: center;
+}
+
+p {
+  margin: 1rem auto;
+  width: 90%;
+  text-align: justify;
+  text-justify: inter-word;
+  hyphens: auto;
 }
 
 .navbar ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 20px;
-    overflow: hidden;
-    background-color: #8f8f8f;
-    color: rgb(255, 255, 255);
-    overflow: hidden;
-}
-.navbar a{
-    padding: 10px;
-    color: rgb(255, 255, 255);
+  list-style-type: none;
+  margin: 0;
+  padding: 20px;
+  background-color: #8f8f8f;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
 }
 
-.navbar a:visited{
-    color: rgb(255, 255, 255); 
+.navbar li {
+  float: none;
 }
 
-.navbar li{
-    float: left;
+.navbar a {
+  color: #fff;
+  text-decoration: none;
+  padding: 10px;
+  font-weight: bold;
+}
+
+.navbar a:hover {
+  color: #ffcc00;
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+  margin-top: 2rem;
+  color: #666;
+  font-size: 0.9rem;
+  border-top: 1px solid #ddd;
 }

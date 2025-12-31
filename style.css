@@ -15,10 +15,16 @@ main {
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
-h1, h2, h3 {
+h1, h2 {
   text-align: center;
 }
-
+h3 {
+  margin: 1rem auto;
+  width: 90%;
+  text-align: justify;
+  text-justify: inter-word;
+  hyphens: auto;
+}
 p {
   margin: 1rem auto;
   width: 90%;

@@ -1,46 +1,53 @@
-/* Global reset for predictable spacing */
+/* ---------- Global reset ---------- */
 *, *::before, *::after {
   box-sizing: border-box;
 }
 
+/* ---------- Base typography ---------- */
 body {
   font-family: Arial, Helvetica, sans-serif;
   margin: 0;
   background-color: #fafafa;
   color: #222;
-  line-height: 1.6;
+  line-height: 1.7;
 }
 
-/* Main content container controls text width + breathing room */
+/* ---------- Main content column ---------- */
 main {
-  max-width: 65ch;
-  margin: 2rem auto;
+  max-width: 65ch;              /* readable line length */
+  margin: 2.5rem auto;
   padding: 2.5rem 3rem;
-  background-color: #fff;
+  background-color: #ffffff;
   border-radius: 8px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
-/* Headings */
+/* ---------- Headings ---------- */
 h1,
 h2 {
   text-align: center;
-  margin-bottom: 1.5rem;
+  margin-bottom: 2rem;
 }
 
 h3 {
   margin-top: 2.5rem;
   margin-bottom: 1rem;
+  font-weight: bold;
 }
 
-/* Paragraphs */
+/* ---------- Paragraphs / abstracts ---------- */
 p {
   margin: 1rem 0;
   text-align: justify;
   hyphens: auto;
 }
 
-/* Navbar */
+/* Optional academic-style indent */
+p + p {
+  text-indent: 1em;
+}
+
+/* ---------- Navbar ---------- */
 .navbar ul {
   list-style-type: none;
   margin: 0;
@@ -64,7 +71,7 @@ p {
   text-decoration: underline;
 }
 
-/* Footer */
+/* ---------- Footer ---------- */
 footer {
   text-align: center;
   padding: 10px;
@@ -74,9 +81,14 @@ footer {
   border-top: 1px solid #ddd;
 }
 
-/* Mobile spacing tweak */
+/* ---------- Mobile spacing ---------- */
 @media (max-width: 480px) {
   main {
     padding: 1.5rem;
   }
+
+  h3 {
+    margin-top: 2rem;
+  }
 }
+

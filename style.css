@@ -14,7 +14,7 @@ body {
 
 /* ---------- Main content column ---------- */
 main {
-  max-width: 65ch;              /* readable line length */
+  ax-width: min(1000px, 90vw);            /* readable line length */
   margin: 2.5rem auto;
   padding: 2.5rem 3rem;
   background-color: #ffffff;

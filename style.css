@@ -71,11 +71,6 @@ p {
   hyphens: auto;
 }
 
-/* Optional academic-style indent */
-p + p {
-  text-indent: 1.25em;
-}
-
 /* ---------- Navbar ---------- */
 .navbar {
   margin-bottom: 2rem;

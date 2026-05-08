@@ -125,3 +125,37 @@ footer {
 
   border-top: 1px solid #ddd;
 }
+
+
+
+/* ---------- Intro layout (text left, photo right) ---------- */
+.intro-section {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 3rem;
+
+  max-width: 1100px;
+  margin: 2.5rem auto;
+}
+
+/* Text takes remaining space */
+.profile-text {
+  flex: 1;
+}
+
+/* Photo sits on the right */
+.profile-photo {
+  flex: 0 0 260px; /* fixed column width for image */
+  display: flex;
+  justify-content: flex-end;
+}
+
+/* Image styling */
+.profile-photo img {
+  width: 100%;
+  height: auto;
+
+  border-radius: 8px;
+  object-fit: cover;
+}

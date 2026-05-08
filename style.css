@@ -66,9 +66,9 @@ h3 {
 /* ---------- Paragraphs ---------- */
 p {
   margin: 1.15rem 0;
-
-  text-align: justify;
-  hyphens: auto;
+  text-align: left;
+  text-indent: 0;
+  hyphens: none;
 }
 
 /* ---------- Navbar ---------- */
